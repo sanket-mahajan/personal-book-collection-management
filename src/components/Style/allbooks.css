@@ -1,0 +1,99 @@
+/* General Styles */
+.allbooks {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Form Styles */
+.allbooks form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.allbooks input,
+.allbooks select,
+.allbooks button {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 300px;
+}
+
+.allbooks button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.allbooks button:hover {
+  background-color: #45a049;
+}
+
+/* Book List Styles */
+.allbooks ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.allbooks li {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.allbooks li:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.allbooks li span {
+  flex-grow: 1;
+  margin-right: 20px;
+}
+
+.allbooks li button {
+  background-color: #f44336;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+.allbooks li button:hover {
+  background-color: #e53935;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.button-group button {
+  margin: 5px 0;
+}
+
+.button-group button:first-child {
+  background-color: #2196f3;
+}
+
+.button-group button:first-child:hover {
+  background-color: #1976d2;
+}

@@ -1,0 +1,38 @@
+/* General Styles */
+.readstatus {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Dropdown Styles */
+.readstatus select {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px;
+  font-size: 16px;
+}
+
+/* Book List Styles */
+.readstatus ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.readstatus li {
+  background-color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.readstatus li:nth-child(even) {
+  background-color: #f9f9f9;
+}
